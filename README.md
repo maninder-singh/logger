@@ -1,4 +1,4 @@
-logger
+# logger
 
 A tiny (2KB) logging library for the browser.
 
