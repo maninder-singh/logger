@@ -1,13 +1,13 @@
 {
   "name": "logger",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tiny (2KB) logging library for the browser.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["es6","javascript","logger"],
+  "author": "maninder singh",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.1.2",
