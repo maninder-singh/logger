@@ -1,6 +1,6 @@
 # logger
 
-A tiny (2KB) logging library for the browser.
+A tiny logging library for the browser.
 
 ### Setup
 ```
