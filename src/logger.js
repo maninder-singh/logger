@@ -1,4 +1,4 @@
-const HTTP = require('./http');
+const http = require('./http');
 const {fingerPrint,screenInfo} = require('./fingerprint');
 
 let _config = {},
@@ -54,7 +54,7 @@ class Logger {
 
         // Send log to server
         if(_config.server){
-            HTTP.post(_config.server,_log);
+            http.post(_config.server,_log);
         }else {
             // Send log to browser console
             console.log("Logger : " , _log);

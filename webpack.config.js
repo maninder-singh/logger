@@ -1,4 +1,4 @@
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const path = require('path');
 
 const _webpackConfiguration = {
@@ -24,7 +24,7 @@ const _webpackConfiguration = {
         }]
     },
     plugins: [
-        new CleanWebpackPlugin([path.join(__dirname,'dist')]),
+        new CleanWebpackPlugin({cleanOnceBeforeBuildPatterns:[path.join(__dirname,'dist')]}),
     ]
 };
 
